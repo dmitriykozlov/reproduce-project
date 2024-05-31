@@ -24,7 +24,7 @@ export default (env, argv) => {
         resolve: {
             extensions: ['.ts', '.js', '.json'],
             alias: {
-                '@platf': resolve(dirName, '../@platf'),
+                '@platf': resolve(dirName, '../platf'),
                 '@': resolve(dirName, '../app'),
             },
             fallback: {
